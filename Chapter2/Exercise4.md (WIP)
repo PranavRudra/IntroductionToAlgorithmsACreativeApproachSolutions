@@ -1,0 +1,7 @@
+# Exercise 2.4
+
+## Finding the sum
+
+$$
+S_n &= \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots + \frac{1}{2^n}
+$$
