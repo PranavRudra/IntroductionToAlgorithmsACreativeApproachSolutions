@@ -10,7 +10,7 @@ Assume
 
 $$(x - y) \mid x^k - y^k$$
 
-$\forall k$ where $1 \leq k \leq n$
+$\forall k \in \mathbb{N}$ where $1 \leq k \leq n$
 
 ## Inductive step
 
