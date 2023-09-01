@@ -51,6 +51,6 @@ S_{k + 1} &= S_k + \frac{1}{2^{k + 1}} \\
 &= 1 - \frac{1}{2^{k + 1}}\left(2 - 1\right) \\
 &= 1 - \frac{1}{2^{k + 1}} \\
 \end{align*}
+$$
 
 as desired.
-$$
