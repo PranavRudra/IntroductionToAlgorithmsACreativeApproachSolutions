@@ -70,7 +70,7 @@ $$
 
 ### Inductive hypothesis
 
-For all $k \in \mathbb{N}$ such that $3 \leq k < n$ assume 
+Assume that $\forall k \in \mathbb{N}$ such that $3 \leq k < n$
 
 $$
 S_k = \frac{1}{3}k^3 + \frac{1}{2}k^2 + \frac{1}{6}k
