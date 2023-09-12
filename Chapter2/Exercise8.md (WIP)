@@ -2,7 +2,7 @@
 
 ## Base case
 
-Observe that 
+Observe that $\forall a, b \in \mathbb{N}$
 
 $$
 \begin{align*}
@@ -14,7 +14,7 @@ $$
 
 ## Inductive hypothesis
 
-Assume that $\forall k \in \mathbb{N}$ such that $1 \leq k < n$
+Assume that $\forall k \in \mathbb{N}$ such that $1 \leq k < n$ and $a, b \in \mathbb{N}$
 
 $$
 \begin{align*}
