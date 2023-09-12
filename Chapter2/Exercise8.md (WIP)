@@ -1,0 +1,31 @@
+# Exercise 2.8
+
+## Base case
+
+Observe that 
+
+$$
+\begin{align*}
+  2^{1 - 1}(a^1 + b^1) &= 2^0(a^1 + b^1) \\
+  &= a^1 + b^1 \\
+  &\geq (a + b)
+\end{align*}
+$$
+
+## Inductive hypothesis
+
+Assume that $\forall k \in \mathbb{N}$ such that $1 \leq k < n$
+
+$$
+\begin{align*}
+  2^{k - 1}(a^k + b^k) \geq (a + b)^k
+\end{align*}
+$$
+
+## Inductive step
+
+$$
+\begin{align*}
+  2^{n - 1}(a^n + b^n) \geq (a + b)^k
+\end{align*}
+$$
