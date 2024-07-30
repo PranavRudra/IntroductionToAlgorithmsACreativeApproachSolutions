@@ -43,6 +43,8 @@ a_k + a_{k - 1} + \cdots + a_1 + a_0 + 3 &\equiv 0 + 3 &&\pmod 3 \\
 \end{align*}
 $$
 
+so the sum of digits of $n$ is divisible by $3$
+
 ## Reverse case
 
 We need to show that if the sum of a number's digits is divisible by $3$, the number (in decimal representation) is divisible by $3$.
@@ -75,14 +77,12 @@ $$
 a_k + a_{k - 1} + \cdots + a_1 + (a_0 + 3) \equiv 0 \pmod 3
 $$
 
-then
+(i.e. the sum of digits of $n$ is divisible by $3$) then
 
 $$
 a_k + a_{k - 1} + \cdots + a_1 + a_0 \equiv 0 \pmod 3
 $$
 
-which means that, by the inductive hypothesis, $3 \mid k$.
-
-However, this in turn means that $3 \mid k + 3 = n$. 
+which, by the inductive hypothesis, means that $3 \mid k \implies 3 \mid k + 3 = n$. 
 
 
