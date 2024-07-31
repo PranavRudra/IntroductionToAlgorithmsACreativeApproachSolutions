@@ -34,12 +34,12 @@ $$
 n  = k + 3 = a_k10^k + a_{k - 1}10^{k - 1} + \cdots + a_110^1 + (a_0 + 3)
 $$
 
-However, by the inductive hypothesis
+Now, the sum of digits is
 
 $$
 \begin{align*}
-a_k + a_{k - 1} + \cdots + a_1 + a_0 + 3 &\equiv 0 + 3 &&\pmod 3 \\
-&\equiv 0 &&\pmod 3
+a_k + a_{k - 1} + \cdots + a_1 + a_0 + 3 &\equiv 0 + 3 &&\pmod 3\ \text{(by the inductive hypothesis)} \\
+&\equiv 0 &&\pmod 3\ \text{(by modular arithmetic)}
 \end{align*}
 $$
 
@@ -61,7 +61,7 @@ $$
 k = a_k10^k + a_{k - 1}10^{k - 1} + \cdots + a_110^1 + a_0
 $$
 
-assume that 
+assume that the sum of digits being divisible by $3$, i.e.,
 
 $$
 a_k + a_{k - 1} + \cdots + a_1 + a_0 \equiv 0 \pmod 3
@@ -71,13 +71,15 @@ implies that $3 \mid k$.
 
 ### Inductive step
 
-Let $k = n - 3$. Now if
+Let $k = n - 3$. 
+
+Now if
 
 $$
 a_k + a_{k - 1} + \cdots + a_1 + (a_0 + 3) \equiv 0 \pmod 3
 $$
 
-(i.e. the sum of digits of $n$ is divisible by $3$) then
+(i.e. the sum of digits of $n = k + 3$ is divisible by $3$) then
 
 $$
 a_k + a_{k - 1} + \cdots + a_1 + a_0 \equiv 0 \pmod 3
