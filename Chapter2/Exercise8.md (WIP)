@@ -8,7 +8,7 @@ $$
 \begin{align*}
   2^{1 - 1}(a^1 + b^1) &= 2^0(a^1 + b^1) \\
   &= a^1 + b^1 \\
-  &\geq (a + b)
+  &\geq (a + b)^1
 \end{align*}
 $$
 
@@ -24,8 +24,14 @@ $$
 
 ## Inductive step
 
+Let $k = n - 1$. Also, without loss of generality, assume that $b \geq a \implies \frac{b}{a} \geq 1$.
+
+Then,
+
 $$
 \begin{align*}
-  2^{n - 1}(a^n + b^n) \geq (a + b)^k
+  2^{n - 1}(a^n + b^n) &= 2^k\left(a^{k + 1} + b^{k + 1}\right) \\
+  &= 2\left[2^{k - 1}\left(a(a^k) + b(b^k)\right)\right] \\
+  &= 2a\left[2^{k - 1}\left(a^k + \frac{b}{a}(b^k)\right)\right]
 \end{align*}
 $$
